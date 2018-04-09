@@ -1,0 +1,305 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html
+{
+	background-color:#fefefe
+}
+body
+{
+	font-family:Open Sans,Arial;
+	color:#454545;
+	font-size:16px;
+	margin:2em auto;
+	max-width:800px;
+	padding:1em;
+	line-height:1.4;
+	text-align:justify;
+	}
+	html.inverted
+	{
+		background-color:#010101;
+	}
+	html.inverted body
+	{
+		color:#bababa;
+	}
+	html.inverted div#invmode
+	{
+		color:#fff;
+		background-color:#000;
+	}
+	html.inverted blockquote
+	{
+		color:#dad0c7;
+	}
+	html.inverted blockquote
+	{
+		color:#bfbfbf;
+	}
+	html.inverted 
+	{
+		color:#07a;
+	}
+	html.inverted span.linkcolor
+	{
+		color:#ac5a82;
+	}
+	html.inverted span.wrong
+	{
+		color:#c0392b;
+	}
+	html.inverted span.mfw
+	{
+		color:#19b496;
+	}
+
+	#bestmotherfuckingwebsite
+	{
+  		background-color: white;
+  		color: grey
+	}
+
+	#bestmotherfuckingwebsite.inverted 
+	{
+  		background-color: black;
+  		color: white;
+	}
+
+	a
+	{
+		color:#07a;
+	}
+	span.linkcolor
+	{
+		color:#941352
+	}
+	
+	span.citneeded
+	{
+		vertical-align:top;
+		font-size:.7em;
+		padding-left:.3em;
+	}
+	small
+	{
+		font-size:.4em;
+	}
+	p.really
+	{
+		margin-top:-1em;
+	}
+	div.position div.picture-left
+	{
+		float:left;
+		width:40%;
+		overflow:hidden;
+		margin-right:1em;
+	}
+	div.position div.picture-left img
+	{
+		width:100%;
+	}
+	div.position div.picture-left p.caption
+	{
+		font-size:.7em;
+	}
+	div.position div.textleft
+	{
+		float:left;width:55%;
+	}
+	div.position div.textleft 
+	{
+		margin-top:0;
+	}
+	div.position
+	{
+		display:block;
+		content:"";
+		clear:both;
+	}
+
+	span.color
+	{
+
+	  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+	  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+	  color:transparent;
+	  -webkit-background-clip: text;
+	  background-clip: text;
+	}
+
+	}
+	ul li img
+	{
+		height:1em;
+	}
+	blockquote
+	{
+		color:#456;
+		margin-left:0;
+		margin-top:2em;
+		margin-bottom:2em;
+	}
+	blockquote span
+	{
+		float:left;
+		margin-left:1rem;
+		padding-top:1rem;
+	}
+	blockquote author
+	{
+		display:block;
+		clear:both;
+		font-size:.6em;
+		margin-left:2.4rem;
+		font-style:oblique
+	}
+	blockquote author
+	{
+		content:"-";
+		margin-right:1em;
+	}
+	blockquote
+	{
+		font-family:Times New Roman,Times,Arial;
+		color:#666;
+		content:open-quote;
+		font-size:2.2em;
+		font-weight:600;
+		float:left;
+		margin-top:0;
+		margin-right:.2rem;
+		width:1.2rem;
+	}
+	blockquote
+	{
+		content:"";
+		display:block;
+		clear:both;
+	}
+	body
+	{
+		text-align:left;
+	}
+	div.position div.picture-left,div.position div.textleft
+	{
+		float:none;
+		width:inherit;
+	}
+	blockquote span
+	{
+		width:80%;
+	}
+	blockquote author
+	{
+		padding-top:1em;
+		width:80%;
+		margin-left:15%;
+	}
+	blockquote author
+	{
+		content:"";
+		margin-right:inherit;
+	}
+	span.linkcolor
+	{
+		color:#941352;
+	}
+	span.maroon
+	{
+		color:#85144b;
+	}
+	span.wrong
+	{
+		color:#c0392b;
+		font-weight:600;
+		text-decoration:underline;
+	}
+	div#contrast
+	{
+		color:#000;
+		top:10px;
+	}
+	div#contrast,div#invmode
+	{
+		cursor:pointer;
+		position:absolute;
+		right:10px;
+		font-size:.8em;
+		text-decoration:underline;
+		-webkit-touch-callout:none;
+		-webkit-user-select:none;
+		-moz-user-select:none;
+		-ms-user-select:none;
+		user-select:none;
+	}
+	div#invmode
+	{
+		color:#fff;
+		background-color:#000;
+		top:34px;
+		padding:2px 5px;
+	}
+	span.blue
+	{
+		color:#00e;
+	}
+	span.blue,span.violet
+	{
+		cursor:not-allowed
+	}
+	span.violet
+	{
+		color:#551a8b;
+	}
+	span.carre;
+	{
+		color:#444;
+		font-weight:700;
+	}
+	span.carre
+	{
+		content:"";
+		display:inline-block;
+		width:1em;
+		height:1em;
+		margin-left:.2em;
+		margin-right:.2em;
+		background-color:#444;
+	}
+	span.carre2
+	{
+		color:#454545;
+		font-weight:700;
+	}
+	span.carre2
+	{
+		content:"";
+		display:inline-block;
+		width:1em;
+		height:1em;
+		margin-left:.2em;
+		margin-right:.2em;
+		background-color:#454545;
+	}
+	span.mfw
+	{
+		color:#16a085;
+	}
+	a.lilogo,a.lilogo img.lilogo
+	{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	a.lilogo img.lilogo
+	{
+		height:2em;
+	}
+	p.zeropoint
+	{
+		font-family:monospace;
+		font-size:.9em;
+	}
